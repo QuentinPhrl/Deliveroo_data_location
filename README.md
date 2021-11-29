@@ -8,9 +8,13 @@ Configuration de Jupyter Notebook sous Debian pour OSMNX
 
 
 conda update -n base conda
+
 conda config --prepend channels conda-forge
+
 conda create -n ox --strict-channel-priority osmnx jupyterlab
+
 conda activate ox
+
 jupyter lab
 
 
